@@ -3,6 +3,7 @@ import { Stack, Box, Typography, Grid } from "@mui/material";
 function AboutSection() {
   return (
     <Box
+      component="section"
       minHeight="60vh"
       pt={7}
       pb={7}
@@ -25,18 +26,18 @@ function AboutSection() {
               About Zaph Tours
             </Typography>
             <Typography variant="body1">
-              For over a decade, Zaph Tours has been Kenya's premier travel
-              company, specializing in exceptional safari experiences and
-              adventure tours. We pride ourselves on creating unforgettable
-              journeys that showcase the natural beauty and cultural richness of
-              East Africa.
+              Zaph Tours Kenya Zaph Tours has been Kenya's leading travel and
+              public transit escort for over ten years. company known for
+              delivering outstanding safari experiences and adventure tours. We
+              specialize in memorable trips that highlight the beauty of and
+              richness of culture in East Africa.
               <br />
               <br />
-              Our expert guides, comfortable accommodations, and carefully
-              planned itineraries ensure that every moment of your adventure is
-              extraordinary. From the snow-capped peaks of Mt. Kenya to the
-              pristine beaches of the coast, we bring you the very best of
-              Kenya.
+              Our knowledgeable guides, great accommodation, delicious meals and
+              attentive leadership result in an experience not to be missed.
+              planned itineraries mean that every second of your adventure is
+              extraordinary. From the glacier-capped summit of Mt. Kenya to the
+              idyllic shore, we deliver a combination of the finest of Kenya.
             </Typography>
             <Stack
               direction="row"

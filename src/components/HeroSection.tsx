@@ -32,6 +32,7 @@ function HeroSection() {
       >
         <Typography
           variant="h1"
+          pb={2}
           sx={{
             fontSize: "4.5rem",
             textAlign: "center",

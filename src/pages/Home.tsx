@@ -1,5 +1,6 @@
 import HeroSection from "../components/Herosection";
 import AboutSection from "../components/AboutSection";
+import FeatureDestinations from "../components/FeatureDestinations";
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
       {/* Zaph Hero Section */}
       <HeroSection />
       <AboutSection />
+      <FeatureDestinations />
     </>
   );
 }
