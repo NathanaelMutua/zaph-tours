@@ -2,7 +2,13 @@ import { Stack, Box, Typography, Grid } from "@mui/material";
 
 function AboutSection() {
   return (
-    <Box minHeight="100vh" pt={7} alignContent="center" justifyContent="center">
+    <Box
+      minHeight="60vh"
+      pt={7}
+      pb={7}
+      alignContent="center"
+      justifyContent="center"
+    >
       <Grid
         container
         spacing={2}
