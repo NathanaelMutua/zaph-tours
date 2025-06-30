@@ -1,4 +1,4 @@
-import { Stack, Box, Typography, Button } from "@mui/material";
+import { Stack, Typography, Button, Box } from "@mui/material";
 
 function HeroSection() {
   return (
@@ -13,6 +13,8 @@ function HeroSection() {
         width: "100%",
       }}
       minHeight="90vh"
+      component="section"
+      pt={7}
     >
       <Stack
         position="absolute"
@@ -32,6 +34,7 @@ function HeroSection() {
           variant="h1"
           sx={{
             fontSize: "4.5rem",
+            textAlign: "center",
             fontWeight: "bold",
             width: { xl: "700px", lg: "600px", md: "400px", xs: "200px" },
           }}
