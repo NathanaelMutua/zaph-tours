@@ -4,20 +4,17 @@ import { FaRegCompass } from "react-icons/fa6";
 
 function Navbar() {
   return (
-    <AppBar position="static">
+    <AppBar sx={{ top: 0, left: 0, width: "100%", zIndex: 100 }}>
       <Toolbar>
-        {/* My Brand Logo and Title */}
+        {/* Zaph Brand Logo and Title */}
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Stack direction="row" alignItems="center" spacing={1}>
-            <FaRegCompass size={30} />
+            <FaRegCompass size={30} color="#eb8a00" />
             <Stack>
-              <Typography
-                variant="h6"
-                sx={{ fontWeight: "bold", fontSize: "1.5rem" }}
-              >
+              <Typography variant="h6" fontWeight="bold" fontSize="1.2rem">
                 Zaph Tours
               </Typography>
-              <Typography variant="caption">
+              <Typography variant="caption" fontSize=".7rem">
                 Best Safaris & Adventures
               </Typography>
             </Stack>

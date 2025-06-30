@@ -1,8 +1,11 @@
+import HeroSection from "../components/Herosection";
+
 function Home() {
   return (
-    <main>
-      <h1>Home Page</h1>
-    </main>
+    <>
+      {/* Zaph Hero Section */}
+      <HeroSection />
+    </>
   );
 }
 

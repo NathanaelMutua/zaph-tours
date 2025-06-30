@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Stack } from "@mui/material";
 import "./App.css";
 import Home from "./pages/Home";
 import Destinations from "./pages/Destinations";
@@ -10,13 +11,17 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        {/* NavBar for all pages */}
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/destinations" element={<Destinations />} />
-          <Route path="/trips" element={<Trips />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        {/* Content for each page */}
+        <Stack component="section" pt="60px">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/destinations" element={<Destinations />} />
+            <Route path="/trips" element={<Trips />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Stack>
       </BrowserRouter>
     </>
   );
