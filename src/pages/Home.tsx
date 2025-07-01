@@ -2,6 +2,7 @@ import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import FeatureDestinations from "../components/FeatureDestinations";
 import Testimonials from "../components/Testimonials";
+import NewsletterSignup from "../components/NewsletterSignup";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <AboutSection />
       <FeatureDestinations />
       <Testimonials />
+      <NewsletterSignup />
     </>
   );
 }

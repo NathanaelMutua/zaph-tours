@@ -10,6 +10,7 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
+import { CiLocationOn } from "react-icons/ci";
 import { featureDestinations } from "../data/FeatureDestinations";
 
 function FeatureDestinations() {
@@ -48,7 +49,12 @@ function FeatureDestinations() {
               <Chip
                 color="primary"
                 label={`$${destination.price}`}
-                sx={{ position: "absolute", top: "1rem", right: "1rem" }}
+                sx={{
+                  position: "absolute",
+                  top: "1rem",
+                  right: "1rem",
+                  zIndex: 100,
+                }}
               />
               <Stack component="div" height="13rem">
                 <CardMedia
@@ -84,6 +90,7 @@ function FeatureDestinations() {
                   }}
                 >
                   <Stack direction="row" spacing={0.5} alignItems="center">
+                    <CiLocationOn />
                     <Typography
                       variant="h6"
                       fontSize="1rem"
