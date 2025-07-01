@@ -39,7 +39,9 @@ function Testimonials() {
                     "{review.description}"
                   </Typography>
                   <Stack direction="row" color="rgb(255, 217, 0)">
-                    <FaStar />
+                    {[...Array(review.rating)].map((_, i) => (
+                      <FaStar key={i} />
+                    ))}
                   </Stack>
                   <Typography variant="h4" fontSize="1rem" fontWeight="bold">
                     {review.firstName} {review.lastName}
