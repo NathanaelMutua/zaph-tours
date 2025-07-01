@@ -4,6 +4,7 @@ import {
   Stack,
   Typography,
   Card,
+  Chip,
   CardMedia,
   CardContent,
   CardActions,
@@ -39,8 +40,17 @@ function FeatureDestinations() {
         alignItems="center"
       >
         {featureDestinations.map((destination, idx) => (
-          <Grid size={{ xs: 11, sm: 6, md: 4, lg: 3.8 }} key={idx}>
+          <Grid
+            size={{ xs: 11, sm: 6, md: 4, lg: 3.8 }}
+            key={idx}
+            position="relative"
+          >
             <Card sx={{ height: "24rem" }}>
+              <Chip
+                color="primary"
+                label={`$${destination.price}`}
+                sx={{ position: "absolute", top: "1rem", right: "1rem" }}
+              />
               <Stack component="div" height="13rem">
                 <CardMedia
                   component="img"
