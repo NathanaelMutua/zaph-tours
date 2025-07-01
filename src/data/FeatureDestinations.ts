@@ -7,31 +7,31 @@ export const featureDestinations = [
   },
   {
     location: "Mt.Ruwenzori",
-    image: "/mount-kenya.jpg",
+    image: "/mount-ruwenzori.jpg",
     description:
       "The mythical Mountains of the Moon provide tough climbs and breathtaking glaciated views.",
   },
   {
     location: "Lake Nakuru",
-    image: "/mount-kenya.jpg",
+    image: "/lake-nakuru.jpg",
     description:
       "Known for its flamingos and rhinos, this alkaline lake is a birder's paradise.",
   },
   {
     location: "Tsavo National Park",
-    image: "/mount-kenya.jpg",
+    image: "/elephant-herd.jpg",
     description:
       "Kenya's largest national park, known for its red elephants and other game.",
   },
   {
     location: "Nairobi National Park",
-    image: "/mount-kenya.jpg",
+    image: "/nairobi-national-park.jpg",
     description:
       "The world's only wildlife capital; where city skyline meets African bush.",
   },
   {
     location: "Coastal Kenya",
-    image: "/mount-kenya.jpg",
+    image: "/mombasa.jpg",
     description:
       "Unspoiled beaches, coral reefs and Swahili culture along the Indian Ocean coast.",
   },

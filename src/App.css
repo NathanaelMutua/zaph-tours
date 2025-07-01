@@ -9,3 +9,7 @@
   object-fit: cover;
   border-radius: 10px;
 }
+
+.feature-destination-image:hover {
+  scale: 1.4;
+}
