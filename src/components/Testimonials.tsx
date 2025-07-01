@@ -1,5 +1,6 @@
 import { Stack, Box, Card, Typography, Grid, CardContent } from "@mui/material";
 import { FaStar } from "react-icons/fa";
+import { TravelerReviews } from "../data/TravelerReviews";
 
 function Testimonials() {
   return (
@@ -18,37 +19,42 @@ function Testimonials() {
         </Typography>
       </Box>
       <Stack>
-        <Grid container>
-          <Grid size={5} height="15rem">
-            <Card sx={{ height: "100%", padding: "1rem" }}>
-              <CardContent
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  gap: ".5rem",
-                }}
-              >
-                <Typography variant="body1" fontSize="1rem">
-                  "Professional guides, amazing wildlife sightings, and perfect
-                  organization. Highly recommended!"
-                </Typography>
-                <Stack direction="row" color="rgb(255, 217, 0)">
-                  <FaStar />
-                </Stack>
-                <Typography variant="h4" fontSize="1rem" fontWeight="bold">
-                  David Mwangi
-                </Typography>
-                <Typography
-                  variant="h6"
-                  fontSize="0.8rem"
-                  color="rgb(111, 111, 111)"
+        <Grid container spacing={2}>
+          {TravelerReviews.map((review, idx) => (
+            <Grid
+              size={{ xs: 11, sm: 6, md: 5, lg: 4 }}
+              height="15rem"
+              key={idx}
+            >
+              <Card sx={{ height: "100%", padding: "1rem" }}>
+                <CardContent
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    gap: ".5rem",
+                  }}
                 >
-                  Mombasa, Kenya
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
+                  <Typography variant="body1" fontSize="1rem">
+                    "{review.description}"
+                  </Typography>
+                  <Stack direction="row" color="rgb(255, 217, 0)">
+                    <FaStar />
+                  </Stack>
+                  <Typography variant="h4" fontSize="1rem" fontWeight="bold">
+                    {review.firstName} {review.lastName}
+                  </Typography>
+                  <Typography
+                    variant="h6"
+                    fontSize="0.8rem"
+                    color="rgb(111, 111, 111)"
+                  >
+                    {review.city}, {review.country}
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
         </Grid>
       </Stack>
     </Stack>
