@@ -6,7 +6,10 @@ import {
   Card,
   CardMedia,
   CardContent,
+  CardActions,
+  Button,
 } from "@mui/material";
+import { CiLocationOn } from "react-icons/ci";
 
 function FeatureDestinations() {
   return (
@@ -23,29 +26,60 @@ function FeatureDestinations() {
         >
           Feature Destinations
         </Typography>
-        <Typography variant="h6" fontSize="1.1rem" pb={2}>
+        <Typography variant="h6" fontSize="1.1rem" pb={10}>
           Discover Kenya's most spectacular locations
         </Typography>
       </Stack>
-      <Grid container>
-        <Grid size={3.5} height="23rem">
-          <Card>
-            <Stack component="div" height="10rem">
+      <Grid container spacing={3}>
+        <Grid size={3.8}>
+          <Card sx={{ height: "24rem" }}>
+            <Stack component="div" height="13rem">
               <CardMedia
                 component="img"
                 image="/mount-kenya.jpg"
                 sx={{ objectFit: "cover", height: "100%" }}
               />
             </Stack>
-            <CardContent>
-              <Typography variant="h3" fontSize="1.3rem" fontWeight="bold">
-                Mt.Kenya
-              </Typography>
-              <Typography variant="body2">
-                Experience the majesty of Africa's second-highest peak with
-                breathtaking views and diverse wildlife.
-              </Typography>
-            </CardContent>
+            <Stack width="22rem" justifyContent="center">
+              <CardContent>
+                <Typography
+                  variant="h3"
+                  fontSize="1.3rem"
+                  fontWeight="bold"
+                  pb={1}
+                >
+                  Mt.Kenya
+                </Typography>
+                <Typography variant="body2">
+                  Experience the majesty of Africa's second-highest peak with
+                  breathtaking views and diverse wildlife.
+                </Typography>
+              </CardContent>
+              <CardActions
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  paddingInline: "1rem",
+                }}
+              >
+                <Stack direction="row" spacing={0.5} alignItems="center">
+                  <CiLocationOn />
+                  <Typography
+                    variant="h6"
+                    fontSize="1rem"
+                    color="rgb(111, 111, 111)"
+                  >
+                    Kenya
+                  </Typography>
+                </Stack>
+                <Button
+                  variant="contained"
+                  sx={{ textTransform: "capitalize" }}
+                >
+                  Learn More
+                </Button>
+              </CardActions>
+            </Stack>
           </Card>
         </Grid>
       </Grid>
