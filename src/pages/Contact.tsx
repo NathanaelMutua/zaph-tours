@@ -5,7 +5,7 @@ function Contact() {
     <div>
       {PageHeader(
         "Contact Us",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum."
+        "Ready to start your Kenyan adventure? Get in touch with our travel experts"
       )}
     </div>
   );

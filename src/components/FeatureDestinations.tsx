@@ -11,7 +11,7 @@ import {
   Button,
 } from "@mui/material";
 import { CiLocationOn } from "react-icons/ci";
-import { featureDestinations } from "../data/FeatureDestinations";
+import { DestinationCollection } from "../data/FeatureDestinations";
 
 function FeatureDestinations() {
   return (
@@ -39,7 +39,10 @@ function FeatureDestinations() {
         justifyContent="center"
         alignItems="center"
       >
-        {featureDestinations.map((destination, idx) => (
+        {/* Filtering only the featured items to be displayed(all destinations are in one array) */}
+        {DestinationCollection.filter(
+          (destination) => destination.featured
+        ).map((destination, idx) => (
           <Grid
             size={{ xs: 11, sm: 6, md: 4, lg: 3.8 }}
             key={idx}

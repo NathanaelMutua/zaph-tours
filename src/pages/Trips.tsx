@@ -4,8 +4,8 @@ function Trips() {
   return (
     <div>
       {PageHeader(
-        "Our Destinations",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum."
+        "Our Packages",
+        "Choose from our diverse range of carefully crafted travel experiences"
       )}
     </div>
   );

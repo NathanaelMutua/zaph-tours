@@ -8,13 +8,7 @@ function PageHeader(title: string, description: string) {
       sx={{ backgroundColor: "rgb(0, 39, 94)" }}
       alignContent="center"
     >
-      <Stack
-        alignItems="center"
-        justifyContent="center"
-        sx={{ backgroundColor: "rgb(0, 39, 94)" }}
-        color="#ffffff"
-        p={4}
-      >
+      <Stack alignItems="center" justifyContent="center" color="#ffffff" p={4}>
         <Typography variant="h2" fontSize="4rem" fontWeight="bold">
           {title}
         </Typography>
