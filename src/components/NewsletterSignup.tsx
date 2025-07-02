@@ -6,6 +6,7 @@ function NewsletterSignup() {
       maxHeight="100vh"
       padding="3rem"
       sx={{ backgroundColor: "#1976D2", color: "#ffffff" }}
+      component="section"
     >
       <Stack justifyContent="center" alignItems="center">
         <Typography variant="h2" fontWeight="bold" fontSize="2.3rem">

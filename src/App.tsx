@@ -6,6 +6,7 @@ import Destinations from "./pages/Destinations";
 import Trips from "./pages/Trips";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Stack>
+        {/* footer for all pages */}
+        <Footer />
       </BrowserRouter>
     </>
   );
