@@ -13,3 +13,7 @@
 .feature-destination-image:hover {
   scale: 1.4;
 }
+
+.footer-link:hover {
+  color: #eb8a00 !important;
+}

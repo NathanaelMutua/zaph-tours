@@ -12,7 +12,7 @@ import { FaMapPin } from "react-icons/fa";
 function Footer() {
   return (
     <Stack
-      minHeight="60vh"
+      minHeight="50vh"
       sx={{ backgroundColor: "rgb(0, 39, 94)" }}
       alignItems="center"
       color="#ffffff"
@@ -52,7 +52,11 @@ function Footer() {
               Quick Links
             </Typography>
             <Typography variant="h6" fontSize="0.9rem">
-              <Link to="/" style={{ textDecoration: "none", color: "#ffffff" }}>
+              <Link
+                to="/"
+                style={{ textDecoration: "none", color: "#ffffff" }}
+                className="footer-link"
+              >
                 Home
               </Link>
             </Typography>
@@ -63,6 +67,7 @@ function Footer() {
                   textDecoration: "none",
                   color: "#ffffff",
                 }}
+                className="footer-link"
               >
                 Destinations
               </Link>
@@ -70,7 +75,12 @@ function Footer() {
             <Typography variant="h6" fontSize="0.9rem">
               <Link
                 to="/trips"
-                style={{ textDecoration: "none", color: "#ffffff" }}
+                style={{
+                  textDecoration: "none",
+                  color: "#ffffff",
+                  transition: "0.3s",
+                }}
+                className="footer-link"
               >
                 Trip types
               </Link>
@@ -81,8 +91,9 @@ function Footer() {
                 style={{
                   textDecoration: "none",
                   color: "#ffffff",
-                  transition: "0.6s",
+                  transition: "0.3s",
                 }}
+                className="footer-link"
               >
                 Contact
               </Link>
@@ -93,22 +104,22 @@ function Footer() {
           <Typography variant="h3" fontSize="1.2rem" fontWeight="bold" pb={2}>
             Popular destinations
           </Typography>
-          <Typography variant="h6" fontSize="0.8rem">
+          <Typography variant="h6" fontSize="0.9rem">
             Mt. Kenya
           </Typography>
-          <Typography variant="h6" fontSize="0.8rem">
+          <Typography variant="h6" fontSize="0.9rem">
             Mt. Ruwenzori
           </Typography>
-          <Typography variant="h6" fontSize="0.8rem">
+          <Typography variant="h6" fontSize="0.9rem">
             Tsavo National Park
           </Typography>
-          <Typography variant="h6" fontSize="0.8rem">
+          <Typography variant="h6" fontSize="0.9rem">
             Nairobi National Park
           </Typography>
-          <Typography variant="h6" fontSize="0.8rem">
+          <Typography variant="h6" fontSize="0.9rem">
             Coastal Kenya
           </Typography>
-          <Typography variant="h6" fontSize="0.8rem">
+          <Typography variant="h6" fontSize="0.9rem">
             Lake Nakuru
           </Typography>
         </Grid>
@@ -136,7 +147,7 @@ function Footer() {
           </Box>
           <Stack
             direction="row"
-            color="#fff"
+            color="#eb8a00"
             alignItems="center"
             spacing={1}
             pt={2}
