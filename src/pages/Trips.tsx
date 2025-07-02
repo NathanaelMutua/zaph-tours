@@ -1,7 +1,12 @@
+import PageHeader from "../components/PageHeader";
+
 function Trips() {
   return (
     <div>
-      <h1>Trips Page</h1>
+      {PageHeader(
+        "Our Destinations",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum."
+      )}
     </div>
   );
 }

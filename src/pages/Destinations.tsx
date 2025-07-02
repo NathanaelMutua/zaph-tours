@@ -1,8 +1,15 @@
+import { Box } from "@mui/material";
+import PageHeader from "../components/PageHeader";
+
 function Destinations() {
   return (
-    <div>
-      <h1>Destinations Page</h1>
-    </div>
+    <Box component="section">
+      {/* The PageHeader that takes 2 parameters (title and description) */}
+      {PageHeader(
+        "Our Destinations",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum."
+      )}
+    </Box>
   );
 }
 

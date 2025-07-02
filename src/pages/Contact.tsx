@@ -1,7 +1,12 @@
+import PageHeader from "../components/PageHeader";
+
 function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      {PageHeader(
+        "Contact Us",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum."
+      )}
     </div>
   );
 }
