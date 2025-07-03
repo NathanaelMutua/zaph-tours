@@ -5,7 +5,7 @@ export const DestinationCollection = [
     shortDescription:
       "Experience the majesty of Africa's second-highest peak with breathtaking views and diverse wildlife.",
     longDescription:
-      "Africa's second-highest peak, Mt. Kenya is a dramatic extinct volcano with glacier-capped summits and lush montane forests teeming with wildlife. Its rugged beauty and sacred significance to local communities make it a magnet for climbers and cultural explorers alike.",
+      "Africa's second-highest peak, Mt. Kenya is an extinct volcano with glacier-capped summits and lush montane forests teeming with wildlife. Its rugged beauty and sacred significance make it a magnet for climbers and cultural explorers alike.",
     price: 8000,
     individualPrice: 16000,
     featured: true,
