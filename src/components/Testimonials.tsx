@@ -19,7 +19,13 @@ function Testimonials() {
         </Typography>
       </Box>
       <Stack>
-        <Grid container spacing={2}>
+        <Grid
+          container
+          spacing={2}
+          rowSpacing={3}
+          justifyContent="center"
+          alignItems="center"
+        >
           {TravelerReviews.map((review, idx) => (
             <Grid
               size={{ xs: 11, sm: 6, md: 5, lg: 4 }}

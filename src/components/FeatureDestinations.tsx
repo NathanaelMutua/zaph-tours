@@ -18,17 +18,17 @@ function FeatureDestinations() {
     <Box
       component="section"
       minHeight="100vh"
-      p="4rem 3rem"
+      p="4rem 2rem"
       sx={{ backgroundColor: "#f5f5f5" }}
     >
-      <Stack alignItems="center">
+      <Stack alignItems="center" textAlign="center">
         <Typography
           variant="h2"
           sx={{ fontWeight: "bold", fontSize: "2.5rem" }}
         >
           Feature Destinations
         </Typography>
-        <Typography variant="h6" fontSize="1.1rem" pb={10}>
+        <Typography variant="h6" fontSize="1.1rem" pb={8}>
           Discover Kenya's most spectacular locations
         </Typography>
       </Stack>
@@ -44,11 +44,18 @@ function FeatureDestinations() {
           (destination) => destination.featured
         ).map((destination, idx) => (
           <Grid
-            size={{ xs: 11, sm: 6, md: 4, lg: 3.8 }}
+            size={{ xs: 12, sm: 9, md: 6, lg: 3.8 }}
             key={idx}
             position="relative"
           >
-            <Card sx={{ height: "24rem" }}>
+            <Card
+              sx={{
+                height: "25rem",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
               <Chip
                 color="primary"
                 label={`$${destination.price}`}
@@ -59,7 +66,7 @@ function FeatureDestinations() {
                   zIndex: 100,
                 }}
               />
-              <Stack component="div" height="13rem">
+              <Stack component="div" height="13rem" width="100%">
                 <CardMedia
                   component="img"
                   image={destination.image}
@@ -71,7 +78,7 @@ function FeatureDestinations() {
                   className="feature-destination-image"
                 />
               </Stack>
-              <Stack width="22rem" justifyContent="center">
+              <Stack width="95%" justifyContent="center">
                 <CardContent>
                   <Typography
                     variant="h3"

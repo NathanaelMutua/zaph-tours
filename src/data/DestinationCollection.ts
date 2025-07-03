@@ -14,7 +14,7 @@ export const DestinationCollection = [
     location: "Mt.Ruwenzori",
     image: "/mount-ruwenzori.jpg",
     shortDescription:
-      "The legendary Mountains of the Moon offer challenging climbs and stunning glacial landscapes.",
+      "The legendary Mountains of the Moon offer challenging climbs and stunning landscapes.",
     longDescription:
       "The legendary Mountains of the Moon offer challenging climbs through stunning glacial landscapes, unique flora, and the mystical beauty of equatorial snow peaks.",
     price: 6000,
@@ -34,7 +34,7 @@ export const DestinationCollection = [
   },
   {
     location: "Tsavo National Park",
-    image: "/elephant-herd.jpg",
+    image: "/giraffes-browsing.jpg",
     shortDescription:
       "Kenya's largest national park, home to the famous red elephants and diverse wildlife.",
     longDescription:
@@ -67,7 +67,7 @@ export const DestinationCollection = [
   },
   {
     location: "Maasai Mara",
-    image: "/mount-ruwenzori.jpg",
+    image: "/maasai-mara.jpg",
     shortDescription:
       "Witness the awe-inspiring Great Migration and iconic Big Five in Kenya's most celebrated savannah reserve.",
     longDescription:
@@ -78,7 +78,7 @@ export const DestinationCollection = [
   },
   {
     location: "Amboseli National Park",
-    image: "/mount-ruwenzori.jpg",
+    image: "/elephant-facing.jpg",
     shortDescription:
       "Get up close with majestic elephants beneath the towering backdrop of Mt. Kilimanjaro.",
     longDescription:
@@ -89,7 +89,7 @@ export const DestinationCollection = [
   },
   {
     location: "Samburu National Reserve",
-    image: "/mount-ruwenzori.jpg",
+    image: "/giraffe-sunset.jpg",
     shortDescription:
       "Encounter rare northern species and vibrant Samburu culture in this rugged, untamed wilderness.",
     longDescription:
@@ -100,7 +100,7 @@ export const DestinationCollection = [
   },
   {
     location: "Hell's Gate",
-    image: "/mount-ruwenzori.jpg",
+    image: "/gorges.jpg",
     shortDescription:
       "Explore dramatic gorges, geothermal vents, and wildlife on foot or by bike in this adventure-packed park.",
     longDescription:
@@ -111,7 +111,7 @@ export const DestinationCollection = [
   },
   {
     location: "Lake Magadi",
-    image: "/mount-ruwenzori.jpg",
+    image: "/lake-magadi.jpg",
     shortDescription:
       "Discover a surreal soda lake of flamingos, hot springs, and shimmering salt flats in Kenya's Rift Valley.",
     longDescription:
@@ -122,7 +122,7 @@ export const DestinationCollection = [
   },
   {
     location: "Mt.Longonot",
-    image: "/mount-ruwenzori.jpg",
+    image: "/mount-longonot.jpg",
     shortDescription:
       "Hike a dormant volcano and circle its forested crater for sweeping views of the Great Rift Valley.",
     longDescription:

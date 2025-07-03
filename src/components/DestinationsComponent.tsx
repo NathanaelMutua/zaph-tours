@@ -16,10 +16,10 @@ import { RiGroupLine } from "react-icons/ri";
 
 function DestinationsComponent() {
   return (
-    <Box sx={{ backgroundColor: "#f5f5f5" }} padding="3rem 0">
+    <Box sx={{ backgroundColor: "#f5f5f5" }} padding="4rem 2rem">
       <Grid
         container
-        spacing={3}
+        spacing={4}
         rowSpacing={5}
         justifyContent="center"
         alignItems="center"
@@ -27,13 +27,13 @@ function DestinationsComponent() {
         {/* Filtering only the featured items to be displayed(all destinations are in one array) */}
         {DestinationCollection.map((destination, idx) => (
           <Grid
-            size={{ xs: 11, sm: 6, md: 4, lg: 3.8 }}
+            size={{ xs: 12, sm: 9, md: 6, lg: 4 }}
             key={idx}
             position="relative"
           >
             <Card
               sx={{
-                height: "30rem",
+                height: "32rem",
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
@@ -58,7 +58,7 @@ function DestinationsComponent() {
                   </Typography>
                 </Stack>
               </Stack>
-              <Stack component="div" height="13rem" width="100%">
+              <Stack component="div" height="15rem" width="100%">
                 <CardMedia
                   component="img"
                   image={destination.image}
@@ -87,7 +87,7 @@ function DestinationsComponent() {
                 >
                   <Box padding="1rem 0.5rem" width="90%">
                     <Stack direction="row" justifyContent="space-between">
-                      <Box display="flex">
+                      <Box display="flex" alignItems="center" gap="0.5rem">
                         <RiGroupLine style={{ color: "#eb8a00" }} />
                         <Typography>Group Price</Typography>
                       </Box>
@@ -96,7 +96,7 @@ function DestinationsComponent() {
                       </Box>
                     </Stack>
                     <Stack direction="row" justifyContent="space-between">
-                      <Box display="flex">
+                      <Box display="flex" alignItems="center" gap="0.5rem">
                         <IoPersonOutline style={{ color: "#eb8a00" }} />
                         <Typography>Individual Price</Typography>
                       </Box>

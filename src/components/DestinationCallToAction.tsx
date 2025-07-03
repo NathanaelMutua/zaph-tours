@@ -11,12 +11,13 @@ function DestinationCallToAction() {
         justifyContent: "center",
       }}
     >
-      <Stack alignItems="center" color="#fff" gap={2}>
+      <Stack alignItems="center" color="#fff" gap={2} textAlign="center">
         <Typography variant="h3" fontWeight="bold" fontSize="2rem">
           Ready For The Adventure?
         </Typography>
         <Typography variant="h6" fontSize="1.1rem">
-          Ready For The Adventure?
+          Let our expert team help you plan the perfect safari or adventure tour
+          tailored to your preferences
         </Typography>
         <Stack direction="row" gap={4}>
           <Button

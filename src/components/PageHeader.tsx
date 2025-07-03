@@ -9,10 +9,15 @@ function PageHeader(title: string, description: string) {
       alignContent="center"
     >
       <Stack alignItems="center" justifyContent="center" color="#ffffff" p={4}>
-        <Typography variant="h2" fontSize="4rem" fontWeight="bold">
+        <Typography
+          variant="h2"
+          fontSize="4rem"
+          fontWeight="bold"
+          textAlign="center"
+        >
           {title}
         </Typography>
-        <Typography variant="h6" fontSize="1.5rem">
+        <Typography variant="h6" fontSize="1.5rem" textAlign="center">
           {description}
         </Typography>
       </Stack>
