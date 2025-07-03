@@ -11,7 +11,7 @@ import {
   Button,
 } from "@mui/material";
 import { CiLocationOn } from "react-icons/ci";
-import { DestinationCollection } from "../data/FeatureDestinations";
+import { DestinationCollection } from "../data/DestinationCollection";
 
 function FeatureDestinations() {
   return (
@@ -82,7 +82,7 @@ function FeatureDestinations() {
                     {destination.location}
                   </Typography>
                   <Typography variant="body2">
-                    {destination.description}
+                    {destination.shortDescription}
                   </Typography>
                 </CardContent>
                 <CardActions
