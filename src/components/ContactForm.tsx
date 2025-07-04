@@ -11,7 +11,7 @@ import {
 function ContactForm() {
   return (
     <form>
-      <Card>
+      <Card sx={{ padding: "1rem 2rem" }}>
         <Typography
           variant="h3"
           fontSize="1.8rem"

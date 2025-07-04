@@ -10,7 +10,7 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
-import { CiLocationOn } from "react-icons/ci";
+import { IoLocationOutline } from "react-icons/io5";
 import { DestinationCollection } from "../data/DestinationCollection";
 
 function FeatureDestinations() {
@@ -100,7 +100,7 @@ function FeatureDestinations() {
                   }}
                 >
                   <Stack direction="row" spacing={0.5} alignItems="center">
-                    <CiLocationOn />
+                    <IoLocationOutline />
                     <Typography
                       variant="h6"
                       fontSize="1rem"

@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { CiLocationOn } from "react-icons/ci";
 import { DestinationCollection } from "../data/DestinationCollection";
-import { IoPersonOutline } from "react-icons/io5";
+import { IoLocationOutline } from "react-icons/io5";
 import { RiGroupLine } from "react-icons/ri";
 
 function DestinationsComponent() {
@@ -99,7 +99,7 @@ function DestinationsComponent() {
                     </Stack>
                     <Stack direction="row" justifyContent="space-between">
                       <Box display="flex" alignItems="center" gap="0.5rem">
-                        <IoPersonOutline style={{ color: "#eb8a00" }} />
+                        <IoLocationOutline style={{ color: "#eb8a00" }} />
                         <Typography>Individual Price</Typography>
                       </Box>
                       <Box>
