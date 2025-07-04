@@ -52,8 +52,8 @@ function TripPackagesGrid() {
                   >
                     {tripPackage.title}
                   </Typography>
+
                   {/* Finally been able to implement conditional results for ratings */}
-                  {/* Reminder to add custom theme to style my interface */}
                   {tripPackage.rating > 8 ? (
                     <Chip label="top rated" color="success" />
                   ) : tripPackage.rating > 6 ? (
