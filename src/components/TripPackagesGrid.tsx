@@ -15,16 +15,17 @@ import { TripPackages } from "../data/TripPackages";
 function TripPackagesGrid() {
   return (
     <Box
+      component="section"
       padding="4rem 2rem"
       display="flex"
       justifyContent="center"
       alignItems="center"
     >
-      {TripPackages.map((tripPackage, idx) => (
-        <Grid container key={idx} spacing={3} rowSpacing={4}>
-          <Grid size={6}>
+      <Grid container spacing={5} rowSpacing={5}>
+        {TripPackages.map((tripPackage, idx) => (
+          <Grid size={{ md: 11, lg: 6 }} key={idx}>
             <Card
-              sx={{ height: "90vh", display: "flex", flexDirection: "column" }}
+              sx={{ height: "85vh", display: "flex", flexDirection: "column" }}
             >
               <CardContent>
                 <Stack
@@ -129,8 +130,8 @@ function TripPackagesGrid() {
               </CardActions>
             </Card>
           </Grid>
-        </Grid>
-      ))}
+        ))}
+      </Grid>
     </Box>
   );
 }
