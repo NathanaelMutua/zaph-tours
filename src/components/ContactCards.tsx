@@ -1,8 +1,12 @@
-import { Box, Card, Stack, Typography } from "@mui/material";
+import { Box, Button, Card, Grid, Stack, Typography } from "@mui/material";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
 import { MdAccessTime } from "react-icons/md";
+import { SlSocialLinkedin } from "react-icons/sl";
+import { BsTwitterX } from "react-icons/bs";
+import { GrInstagram } from "react-icons/gr";
+import { LuFacebook } from "react-icons/lu";
 
 function ContactCards() {
   return (
@@ -69,11 +73,11 @@ function ContactCards() {
               Phone
             </Typography>
             <Typography variant="body1" fontSize="0.9rem">
-              +254 700 123 456
+              +254 700 000 000
               <br />
-              +254 733 987 654
+              +254 718 796 084
               <br />
-              +254 20 1234567 (Office)
+              +254 00 0000000 (Office)
             </Typography>
           </Stack>
         </Stack>
@@ -104,7 +108,7 @@ function ContactCards() {
           </Stack>
         </Stack>
       </Card>
-      <Card sx={{ padding: "2rem 3rem" }}>
+      <Card sx={{ padding: "2rem 3rem", mb: "2rem" }}>
         <Stack direction="row" display="flex" alignItems="start" gap={1}>
           <MdAccessTime style={{ fontSize: "1.3rem", marginTop: "0.2rem" }} />
           <Stack width="50%">
@@ -112,6 +116,7 @@ function ContactCards() {
               variant="h4"
               fontSize="1.3rem"
               fontWeight="bold"
+              textTransform="capitalize"
               pb={1.5}
             >
               Office hours
@@ -155,6 +160,59 @@ function ContactCards() {
             </Stack>
           </Stack>
         </Stack>
+      </Card>
+      <Card sx={{ padding: "2rem 3rem" }}>
+        <Typography
+          variant="h4"
+          fontSize="1.3rem"
+          fontWeight="bold"
+          textTransform="capitalize"
+          pb={1.5}
+        >
+          Follow Us
+        </Typography>
+        <Grid container spacing={2}>
+          <Grid size={6}>
+            <Button
+              variant="outlined"
+              fullWidth
+              sx={{ textTransform: "capitalize" }}
+              startIcon={<LuFacebook />}
+            >
+              Facebook
+            </Button>
+          </Grid>
+          <Grid size={6}>
+            <Button
+              variant="outlined"
+              fullWidth
+              sx={{ textTransform: "capitalize" }}
+              startIcon={<GrInstagram />}
+            >
+              instagram
+            </Button>
+          </Grid>
+          <Grid size={6}>
+            <Button
+              variant="outlined"
+              fullWidth
+              sx={{ textTransform: "capitalize" }}
+              startIcon={<BsTwitterX />}
+            >
+              twitter
+            </Button>
+          </Grid>
+          <Grid size={6}>
+            <Button
+              variant="outlined"
+              fullWidth
+              sx={{ textTransform: "capitalize" }}
+              startIcon={<SlSocialLinkedin />}
+            >
+              linkedIn
+            </Button>
+          </Grid>
+        </Grid>
       </Card>
     </Box>
   );

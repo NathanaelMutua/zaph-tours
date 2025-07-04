@@ -5,11 +5,11 @@ import ContactCards from "./ContactCards";
 function ContactSection() {
   return (
     <Box component="section" p="4rem 2rem">
-      <Grid container spacing={5}>
-        <Grid size={{ md: 11, lg: 6 }}>
+      <Grid container spacing={5} justifyContent="center">
+        <Grid size={{ xs: 11, md: 11, lg: 6 }}>
           <ContactForm />
         </Grid>
-        <Grid size={{ md: 11, lg: 6 }}>
+        <Grid size={{ xs: 11, md: 11, lg: 6 }}>
           <ContactCards />
         </Grid>
       </Grid>
