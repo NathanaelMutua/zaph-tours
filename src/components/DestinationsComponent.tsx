@@ -30,10 +30,12 @@ function DestinationsComponent() {
             size={{ xs: 12, sm: 9, md: 6, lg: 4 }}
             key={idx}
             position="relative"
+            justifyContent="center"
+            alignItems="center"
           >
             <Card
               sx={{
-                height: "32rem",
+                minHeight: "32rem",
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",

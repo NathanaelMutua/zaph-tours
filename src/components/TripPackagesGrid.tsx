@@ -21,11 +21,21 @@ function TripPackagesGrid() {
       justifyContent="center"
       alignItems="center"
     >
-      <Grid container spacing={5} rowSpacing={5}>
+      <Grid
+        container
+        spacing={5}
+        rowSpacing={5}
+        justifyContent="center"
+        alignItems="center"
+      >
         {TripPackages.map((tripPackage, idx) => (
-          <Grid size={{ md: 11, lg: 6 }} key={idx}>
+          <Grid size={{ xs: 11, md: 8, lg: 6 }} key={idx}>
             <Card
-              sx={{ height: "85vh", display: "flex", flexDirection: "column" }}
+              sx={{
+                minHeight: "40vh",
+                display: "flex",
+                flexDirection: "column",
+              }}
             >
               <CardContent>
                 <Stack
