@@ -9,9 +9,9 @@ import {
   Button,
   CardActions,
 } from "@mui/material";
-import { CiLocationOn } from "react-icons/ci";
-import { DestinationCollection } from "../data/DestinationCollection";
 import { IoLocationOutline } from "react-icons/io5";
+import { DestinationCollection } from "../data/DestinationCollection";
+import { IoPersonSharp } from "react-icons/io5";
 import { RiGroupLine } from "react-icons/ri";
 
 function DestinationsComponent() {
@@ -54,7 +54,7 @@ function DestinationsComponent() {
                   {destination.location}
                 </Typography>
                 <Stack direction="row" spacing={0.5} alignItems="center">
-                  <CiLocationOn />
+                  <IoLocationOutline />
                   <Typography variant="h6" fontSize="1rem">
                     Kenya
                   </Typography>
@@ -99,7 +99,7 @@ function DestinationsComponent() {
                     </Stack>
                     <Stack direction="row" justifyContent="space-between">
                       <Box display="flex" alignItems="center" gap="0.5rem">
-                        <IoLocationOutline style={{ color: "#eb8a00" }} />
+                        <IoPersonSharp style={{ color: "#eb8a00" }} />
                         <Typography>Individual Price</Typography>
                       </Box>
                       <Box>
