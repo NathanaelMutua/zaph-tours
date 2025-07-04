@@ -8,7 +8,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 10,
   },
   {
     title: "honeymoon",
@@ -19,7 +19,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 8,
   },
   {
     title: "luxury vacations",
@@ -30,7 +30,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 3,
   },
   {
     title: "beach holidays",
@@ -41,7 +41,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 8,
   },
   {
     title: "family",
@@ -52,7 +52,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 9,
   },
   {
     title: "Adventure",
@@ -63,7 +63,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 7,
   },
   {
     title: "cultural tours",
@@ -74,7 +74,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 5,
   },
   {
     title: "eco tours",
@@ -85,7 +85,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 8,
   },
   {
     title: "wellness retreat",
@@ -96,7 +96,7 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 9,
   },
   {
     title: "culinary tours",
@@ -107,6 +107,6 @@ export const TripPackages = [
     pricing: "9000",
     packageTarget: "person",
     offer: "Photography workshop included",
-    rating: "8",
+    rating: 9,
   },
 ];
