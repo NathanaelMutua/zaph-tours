@@ -178,6 +178,7 @@ function ContactCards() {
               fullWidth
               sx={{ textTransform: "capitalize" }}
               startIcon={<LuFacebook />}
+              href="https://github.com/NathanaelMutua"
             >
               Facebook
             </Button>
@@ -188,6 +189,7 @@ function ContactCards() {
               fullWidth
               sx={{ textTransform: "capitalize" }}
               startIcon={<GrInstagram />}
+              href="https://github.com/NathanaelMutua"
             >
               instagram
             </Button>
@@ -198,6 +200,7 @@ function ContactCards() {
               fullWidth
               sx={{ textTransform: "capitalize" }}
               startIcon={<BsTwitterX />}
+              href="https://www.linkedin.com/in/nathanaelmutua/"
             >
               twitter
             </Button>
@@ -208,6 +211,7 @@ function ContactCards() {
               fullWidth
               sx={{ textTransform: "capitalize" }}
               startIcon={<SlSocialLinkedin />}
+              href="https://www.linkedin.com/in/nathanaelmutua/"
             >
               linkedIn
             </Button>
