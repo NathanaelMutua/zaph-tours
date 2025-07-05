@@ -1,6 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import ContactForm from "./ContactForm";
 import ContactCards from "./ContactCards";
+import EmbeddedMap from "./EmbeddedMap";
 
 function ContactSection() {
   return (
@@ -13,6 +14,7 @@ function ContactSection() {
           <ContactCards />
         </Grid>
       </Grid>
+      <EmbeddedMap />
     </Box>
   );
 }
