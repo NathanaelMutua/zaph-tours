@@ -20,12 +20,12 @@ function Footer() {
     >
       <Grid
         container
-        padding="3rem"
+        padding="3rem 1rem"
         justifyContent="space-between"
-        wrap="wrap"
+        rowSpacing={3}
         width="100%"
       >
-        <Grid size={3.7}>
+        <Grid size={{ xs: 11, md: 4, lg: 3 }}>
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
             <Stack direction="row" alignItems="center" spacing={1} pb={2}>
               <FaRegCompass size={30} color="#eb8a00" />
@@ -46,7 +46,7 @@ function Footer() {
             </Typography>
           </Box>
         </Grid>
-        <Grid size={2}>
+        <Grid size={{ xs: 11, md: 3, lg: 2 }}>
           <Stack>
             <Typography variant="h3" fontSize="1.2rem" fontWeight="bold" pb={2}>
               Quick Links
@@ -100,7 +100,7 @@ function Footer() {
             </Typography>
           </Stack>
         </Grid>
-        <Grid size={2}>
+        <Grid size={{ xs: 11, md: 3, lg: 2 }}>
           <Typography variant="h3" fontSize="1.2rem" fontWeight="bold" pb={2}>
             Popular destinations
           </Typography>
@@ -123,7 +123,7 @@ function Footer() {
             Lake Nakuru
           </Typography>
         </Grid>
-        <Grid size={2.5}>
+        <Grid size={{ xs: 11, md: 6, lg: 2 }}>
           <Typography variant="h3" fontSize="1.2rem" fontWeight="bold" pb={2}>
             Contact Info
           </Typography>

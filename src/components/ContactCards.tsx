@@ -171,8 +171,8 @@ function ContactCards() {
         >
           Follow Us
         </Typography>
-        <Grid container spacing={2}>
-          <Grid size={6}>
+        <Grid container spacing={2} justifyContent="center">
+          <Grid size={{ xs: 11, md: 6 }}>
             <Button
               variant="outlined"
               fullWidth
@@ -182,7 +182,7 @@ function ContactCards() {
               Facebook
             </Button>
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ xs: 11, md: 6 }}>
             <Button
               variant="outlined"
               fullWidth
@@ -192,7 +192,7 @@ function ContactCards() {
               instagram
             </Button>
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ xs: 11, md: 6 }}>
             <Button
               variant="outlined"
               fullWidth
@@ -202,7 +202,7 @@ function ContactCards() {
               twitter
             </Button>
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ xs: 11, md: 6 }}>
             <Button
               variant="outlined"
               fullWidth
