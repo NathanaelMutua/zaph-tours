@@ -48,7 +48,13 @@ function Footer() {
         </Grid>
         <Grid size={{ xs: 11, md: 3, lg: 2 }}>
           <Stack>
-            <Typography variant="h3" fontSize="1.2rem" fontWeight="bold" pb={2}>
+            <Typography
+              variant="h3"
+              fontSize="1.2rem"
+              fontWeight="bold"
+              pb={2}
+              color="#eb8a00"
+            >
               Quick Links
             </Typography>
             <Typography variant="h6" fontSize="0.9rem">
@@ -101,7 +107,13 @@ function Footer() {
           </Stack>
         </Grid>
         <Grid size={{ xs: 11, md: 3, lg: 2 }}>
-          <Typography variant="h3" fontSize="1.2rem" fontWeight="bold" pb={2}>
+          <Typography
+            variant="h3"
+            fontSize="1.2rem"
+            fontWeight="bold"
+            pb={2}
+            color="#eb8a00"
+          >
             Popular destinations
           </Typography>
           <Typography variant="h6" fontSize="0.9rem">
@@ -124,7 +136,13 @@ function Footer() {
           </Typography>
         </Grid>
         <Grid size={{ xs: 11, md: 6, lg: 2 }}>
-          <Typography variant="h3" fontSize="1.2rem" fontWeight="bold" pb={2}>
+          <Typography
+            variant="h3"
+            fontSize="1.2rem"
+            fontWeight="bold"
+            pb={2}
+            color="#eb8a00"
+          >
             Contact Info
           </Typography>
           <Box sx={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
@@ -149,13 +167,26 @@ function Footer() {
             direction="row"
             color="#eb8a00"
             alignItems="center"
-            spacing={1}
+            fontSize="1.1rem"
+            spacing={1.4}
             pt={2}
           >
-            <LuFacebook />
-            <SlSocialLinkedin />
-            <BsTwitterX />
-            <FaInstagram />
+            <LuFacebook
+              href="https://www.linkedin.com/in/nathanaelmutua/"
+              style={{ cursor: "pointer" }}
+            />
+            <SlSocialLinkedin
+              href="https://www.linkedin.com/in/nathanaelmutua/"
+              style={{ cursor: "pointer" }}
+            />
+            <BsTwitterX
+              href="https://github.com/NathanaelMutua"
+              style={{ cursor: "pointer" }}
+            />
+            <FaInstagram
+              href="https://github.com/NathanaelMutua"
+              style={{ cursor: "pointer" }}
+            />
           </Stack>
         </Grid>
       </Grid>
