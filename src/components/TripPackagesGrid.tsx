@@ -42,6 +42,7 @@ function TripPackagesGrid() {
                   direction="row"
                   display="flex"
                   justifyContent="space-between"
+                  alignItems="center"
                   pb={2}
                 >
                   <Typography
@@ -53,13 +54,12 @@ function TripPackagesGrid() {
                     {tripPackage.title}
                   </Typography>
 
-                  {/* Finally been able to implement conditional results for ratings */}
                   {tripPackage.rating > 8 ? (
-                    <Chip label="top rated" color="success" />
+                    <Chip label="top rated" color="success" size="small" />
                   ) : tripPackage.rating > 6 ? (
-                    <Chip label="popular" color="primary" />
+                    <Chip label="popular" color="primary" size="small" />
                   ) : tripPackage.rating > 4 ? (
-                    <Chip label="trending" color="warning" />
+                    <Chip label="trending" color="warning" size="small" />
                   ) : (
                     <Chip label="new" color="default" />
                   )}
@@ -125,7 +125,7 @@ function TripPackagesGrid() {
                     </Typography>
                     <Typography
                       variant="h4"
-                      fontSize="1.1rem"
+                      fontSize="0.9rem"
                       fontWeight="bold"
                     >
                       {tripPackage.offer}

@@ -12,8 +12,8 @@ export const TripPackages = [
   },
   {
     title: "honeymoon",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/honeymoon.jpg",
+    image2: "/couple-dinner.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -23,8 +23,8 @@ export const TripPackages = [
   },
   {
     title: "luxury vacations",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/palms.jpg",
+    image2: "/maasai-mara.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -34,8 +34,8 @@ export const TripPackages = [
   },
   {
     title: "beach holidays",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/man-on-beach.jpg",
+    image2: "/coastal-waters.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -45,8 +45,8 @@ export const TripPackages = [
   },
   {
     title: "family",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/family-camping.jpg",
+    image2: "/child-climbing.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -56,8 +56,8 @@ export const TripPackages = [
   },
   {
     title: "Adventure",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/elephant-facing.jpg",
+    image2: "/flamingos.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -67,8 +67,8 @@ export const TripPackages = [
   },
   {
     title: "cultural tours",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/culture-event.jpg",
+    image2: "/maasai-culture.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -78,8 +78,8 @@ export const TripPackages = [
   },
   {
     title: "eco tours",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/marine-ecology.jpg",
+    image2: "/kilimanjaro.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -89,8 +89,8 @@ export const TripPackages = [
   },
   {
     title: "wellness retreat",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/yoga.jpg",
+    image2: "/massage.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
@@ -100,8 +100,8 @@ export const TripPackages = [
   },
   {
     title: "culinary tours",
-    image1: "/safari-vehicle-under-tree.jpg",
-    image2: "/giraffe-closeup.jpg",
+    image1: "/culinary-exp.jpg",
+    image2: "/kenya-culinary.jpg",
     description:
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
