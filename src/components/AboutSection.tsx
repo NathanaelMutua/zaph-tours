@@ -16,7 +16,7 @@ function AboutSection() {
         justifyContent="space-evenly"
         alignItems="center"
       >
-        <Grid size={5}>
+        <Grid size={{ xs: 11, md: 9, lg: 5 }}>
           <Box justifyContent="center">
             <Typography
               variant="h2"
@@ -85,7 +85,7 @@ function AboutSection() {
             </Stack>
           </Box>
         </Grid>
-        <Grid size={5} component="div">
+        <Grid size={{ xs: 11, md: 9, lg: 5 }} component="div">
           <img
             src="/monkey.jpg"
             alt="image of monkey waving their hand"
