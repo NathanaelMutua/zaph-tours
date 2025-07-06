@@ -18,7 +18,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "20% off for bookings made 3 months in advance",
     rating: 8,
   },
   {
@@ -29,7 +29,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Complimentary spa treatments",
     rating: 3,
   },
   {
@@ -40,7 +40,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Free water sports equipment",
     rating: 8,
   },
   {
@@ -51,7 +51,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Children under 12 get 50% discount",
     rating: 9,
   },
   {
@@ -62,7 +62,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Free gear rental for early bookings",
     rating: 7,
   },
   {
@@ -73,7 +73,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Includes authentic cultural souvenirs",
     rating: 5,
   },
   {
@@ -84,7 +84,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Tree planting certificate included",
     rating: 8,
   },
   {
@@ -95,7 +95,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Personal wellness consultation included",
     rating: 9,
   },
   {
@@ -106,7 +106,7 @@ export const TripPackages = [
       "Classic African safari experiences with expert guides, luxury vehicles, and prime wildlife viewing opportunities. Witness the Big Five, Great Migration, and countless other species in their natural habitats.",
     pricing: "9000",
     packageTarget: "person",
-    offer: "Photography workshop included",
+    offer: "Recipe book and spices included",
     rating: 9,
   },
 ];

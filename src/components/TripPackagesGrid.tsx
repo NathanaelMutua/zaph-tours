@@ -92,11 +92,11 @@ function TripPackagesGrid() {
                 <Box display="flex" flexDirection="column" gap={1} pt={3}>
                   <Stack
                     width="100%"
-                    padding="0.5rem 1rem"
+                    padding="1rem"
                     direction="row"
                     justifyContent="space-between"
                     alignItems="center"
-                    sx={{ backgroundColor: "rgba(255, 132, 0, 0.2)" }}
+                    sx={{ backgroundColor: "rgba(255, 132, 0, 0.1)" }}
                     borderRadius="5px"
                   >
                     <Typography variant="h4" fontSize="0.9rem">
@@ -106,6 +106,7 @@ function TripPackagesGrid() {
                       variant="h4"
                       fontSize="1.1rem"
                       fontWeight="bold"
+                      color="primary"
                     >
                       From ${tripPackage.pricing} per{" "}
                       {tripPackage.packageTarget}
@@ -113,11 +114,11 @@ function TripPackagesGrid() {
                   </Stack>
                   <Stack
                     width="100%"
-                    padding="0.5rem 1rem"
+                    padding="1rem"
                     direction="row"
                     justifyContent="space-between"
                     alignItems="center"
-                    sx={{ backgroundColor: "rgba(123, 255, 0, 0.2)" }}
+                    sx={{ backgroundColor: "rgba(123, 255, 0, 0.1)" }}
                     borderRadius="5px"
                   >
                     <Typography variant="h4" fontSize="0.9rem">
@@ -127,6 +128,7 @@ function TripPackagesGrid() {
                       variant="h4"
                       fontSize="0.9rem"
                       fontWeight="bold"
+                      color="success"
                     >
                       {tripPackage.offer}
                     </Typography>
