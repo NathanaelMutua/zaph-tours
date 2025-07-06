@@ -41,6 +41,7 @@ function ContactCards() {
               fontSize="1.3rem"
               fontWeight="bold"
               pb={1.5}
+              color="primary"
             >
               Address
             </Typography>
@@ -69,6 +70,7 @@ function ContactCards() {
               fontSize="1.3rem"
               fontWeight="bold"
               pb={1.5}
+              color="primary"
             >
               Phone
             </Typography>
@@ -95,6 +97,7 @@ function ContactCards() {
               fontSize="1.3rem"
               fontWeight="bold"
               pb={1.5}
+              color="primary"
             >
               Email
             </Typography>
@@ -118,6 +121,7 @@ function ContactCards() {
               fontWeight="bold"
               textTransform="capitalize"
               pb={1.5}
+              color="primary"
             >
               Office hours
             </Typography>

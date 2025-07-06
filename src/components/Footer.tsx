@@ -28,7 +28,7 @@ function Footer() {
         <Grid size={{ xs: 11, md: 4, lg: 3 }}>
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
             <Stack direction="row" alignItems="center" spacing={1} pb={2}>
-              <FaRegCompass size={30} color="#eb8a00" />
+              <FaRegCompass size={30} color="#ef6c00" />
               <Stack>
                 <Typography variant="h2" fontWeight="bold" fontSize="1.2rem">
                   Zaph Tours
@@ -53,7 +53,7 @@ function Footer() {
               fontSize="1.2rem"
               fontWeight="bold"
               pb={2}
-              color="#eb8a00"
+              color="primary"
             >
               Quick Links
             </Typography>
@@ -61,7 +61,7 @@ function Footer() {
               <Link
                 to="/"
                 style={{ textDecoration: "none", color: "#ffffff" }}
-                className="menu-link"
+                className="menu-link-footer"
               >
                 Home
               </Link>
@@ -73,7 +73,7 @@ function Footer() {
                   textDecoration: "none",
                   color: "#ffffff",
                 }}
-                className="menu-link"
+                className="menu-link-footer"
               >
                 Destinations
               </Link>
@@ -86,7 +86,7 @@ function Footer() {
                   color: "#ffffff",
                   transition: "0.3s",
                 }}
-                className="menu-link"
+                className="menu-link-footer"
               >
                 Trip types
               </Link>
@@ -99,7 +99,7 @@ function Footer() {
                   color: "#ffffff",
                   transition: "0.3s",
                 }}
-                className="menu-link"
+                className="menu-link-footer"
               >
                 Contact
               </Link>
@@ -112,7 +112,7 @@ function Footer() {
             fontSize="1.2rem"
             fontWeight="bold"
             pb={2}
-            color="#eb8a00"
+            color="primary"
           >
             Popular destinations
           </Typography>
@@ -141,7 +141,7 @@ function Footer() {
             fontSize="1.2rem"
             fontWeight="bold"
             pb={2}
-            color="#eb8a00"
+            color="primary"
           >
             Contact Info
           </Typography>

@@ -22,10 +22,11 @@ function AboutSection() {
               variant="h2"
               pb={2}
               sx={{ fontWeight: "bold", fontSize: "2.5rem" }}
+              color="text.primary"
             >
               About Zaph Tours
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" color="text.primary">
               Zaph Tours Kenya Zaph Tours has been Kenya's leading travel and
               public transit escort for over ten years. company known for
               delivering outstanding safari experiences and adventure tours. We
@@ -51,36 +52,42 @@ function AboutSection() {
                   sx={{
                     fontWeight: "800",
                     fontSize: "1.8rem",
-                    color: "#eb8a00",
                   }}
+                  color="primary"
                 >
                   600+
                 </Typography>
-                <Typography>Happy Clients</Typography>
+                <Typography variant="body2" fontWeight="bold">
+                  Happy Clients
+                </Typography>
               </Box>
               <Box textAlign="center">
                 <Typography
                   sx={{
                     fontWeight: "800",
                     fontSize: "1.8rem",
-                    color: "#eb8a00",
                   }}
+                  color="primary"
                 >
                   100+
                 </Typography>
-                <Typography>Destinations</Typography>
+                <Typography variant="body2" fontWeight="bold">
+                  Destinations
+                </Typography>
               </Box>
               <Box textAlign="center">
                 <Typography
                   sx={{
                     fontWeight: "800",
                     fontSize: "1.8rem",
-                    color: "#eb8a00",
                   }}
+                  color="primary"
                 >
                   10+
                 </Typography>
-                <Typography>Years Experience</Typography>
+                <Typography variant="body2" fontWeight="bold">
+                  Years Experience
+                </Typography>
               </Box>
             </Stack>
           </Box>

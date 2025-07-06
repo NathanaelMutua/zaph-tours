@@ -18,14 +18,14 @@ function Navbar() {
     >
       <Toolbar>
         {/* Zaph Brand Logo and Title */}
-        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+        <Link to="/" style={{ textDecoration: "none", color: "#00275e" }}>
           <Stack direction="row" alignItems="center" spacing={1}>
-            <FaRegCompass size={30} color="#eb8a00" />
+            <FaRegCompass size={30} color="#ffffff" />
             <Stack>
               <Typography variant="h2" fontWeight="bold" fontSize="1.2rem">
                 Zaph Tours
               </Typography>
-              <Typography variant="caption" fontSize=".7rem">
+              <Typography variant="caption" fontSize=".7rem" color="#ffffff">
                 Best Safaris & Adventures
               </Typography>
             </Stack>

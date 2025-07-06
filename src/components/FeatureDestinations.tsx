@@ -21,7 +21,7 @@ function FeatureDestinations() {
       p="4rem 2rem"
       sx={{ backgroundColor: "#f5f5f5" }}
     >
-      <Stack alignItems="center" textAlign="center">
+      <Stack alignItems="center" textAlign="center" color="text.primary">
         <Typography
           variant="h2"
           sx={{ fontWeight: "bold", fontSize: "2.5rem" }}
@@ -57,7 +57,7 @@ function FeatureDestinations() {
               }}
             >
               <Chip
-                color="primary"
+                color="secondary"
                 label={`$${destination.price}`}
                 sx={{
                   position: "absolute",

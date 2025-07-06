@@ -15,5 +15,9 @@
 }
 
 .menu-link:hover {
-  color: #eb8a00 !important;
+  color: #00275e !important;
+}
+
+.menu-link-footer:hover {
+  color: #ef6c00 !important;
 }

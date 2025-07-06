@@ -5,7 +5,7 @@ import { TravelerReviews } from "../data/TravelerReviews";
 function Testimonials() {
   return (
     <Stack alignItems="center" minHeight="70vh" p="3rem">
-      <Box textAlign="center">
+      <Box textAlign="center" color="text.primary">
         <Typography
           variant="h1"
           fontWeight="bold"

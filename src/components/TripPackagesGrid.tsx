@@ -139,12 +139,19 @@ function TripPackagesGrid() {
                   display: "flex",
                   gap: 2,
                   paddingBottom: "1rem",
+                  textTransform: "capitalize",
                 }}
               >
-                <Button variant="contained" sx={{ flexGrow: 1 }}>
+                <Button
+                  variant="contained"
+                  sx={{ flexGrow: 1, textTransform: "capitalize" }}
+                >
                   Book Now
                 </Button>
-                <Button variant="contained" sx={{ flexGrow: 1 }}>
+                <Button
+                  variant="contained"
+                  sx={{ flexGrow: 1, textTransform: "capitalize" }}
+                >
                   Learn More
                 </Button>
               </CardActions>

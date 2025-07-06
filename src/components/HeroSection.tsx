@@ -54,7 +54,7 @@ function HeroSection() {
               xs: "1.1rem",
               sm: "1.5rem",
               md: "1.8rem",
-              lg: "2.1rem",
+              lg: "1.9rem",
             },
           }}
         >
@@ -74,8 +74,13 @@ function HeroSection() {
             Explore Destinations
           </Button>
           <Button
-            variant="contained"
-            sx={{ textTransform: "capitalize", padding: "0.5rem 1rem" }}
+            variant="outlined"
+            sx={{
+              textTransform: "capitalize",
+              padding: "0.5rem 1rem",
+              border: "2px solid",
+              color: "whitesmoke",
+            }}
           >
             Plan Your Trip
           </Button>
