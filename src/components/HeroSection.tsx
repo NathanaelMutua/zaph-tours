@@ -34,7 +34,12 @@ function HeroSection() {
           variant="h1"
           pb={2}
           sx={{
-            fontSize: "4.5rem",
+            fontSize: {
+              xs: "2.6rem",
+              sm: "3.1rem",
+              md: "3.5rem",
+              lg: "4.5rem",
+            },
             textAlign: "center",
             fontWeight: "bold",
             width: { xl: "700px", lg: "600px", md: "400px", xs: "200px" },
@@ -42,12 +47,26 @@ function HeroSection() {
         >
           The Best Safaris & Adventures
         </Typography>
-        <Typography variant="body1" sx={{ fontSize: "1.4rem" }}>
+        <Typography
+          variant="body1"
+          sx={{
+            fontSize: {
+              xs: "1.1rem",
+              sm: "1.5rem",
+              md: "1.8rem",
+              lg: "2.1rem",
+            },
+          }}
+        >
           Explore the wild beauty of Kenya with expertly crafted tours and
           unforgettable experiences
         </Typography>
 
-        <Stack direction="row" spacing={2} mt={4}>
+        <Stack
+          direction={{ sx: "column", md: "row", lg: "row" }}
+          gap={3}
+          mt={6}
+        >
           <Button
             variant="contained"
             sx={{ textTransform: "capitalize", padding: "0.5rem 1rem" }}
