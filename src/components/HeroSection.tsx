@@ -22,7 +22,7 @@ function HeroSection() {
         left="50%"
         sx={{
           transform: "translate(-50%, -50%)",
-          width: { xl: "900px", lg: "800px", md: "600px", xs: "300px" },
+          width: { xl: "950px", lg: "850px", md: "600px", xs: "340px" },
         }}
         alignItems="center"
         justifyContent="center"
@@ -35,14 +35,20 @@ function HeroSection() {
           pb={2}
           sx={{
             fontSize: {
-              xs: "2.6rem",
-              sm: "3.1rem",
+              xs: "1.9rem",
+              sm: "2.5.1rem",
               md: "3.5rem",
               lg: "4.5rem",
             },
             textAlign: "center",
             fontWeight: "bold",
-            width: { xl: "700px", lg: "600px", md: "400px", xs: "200px" },
+            width: {
+              xl: "800px",
+              lg: "700px",
+              md: "500px",
+              sm: "400px",
+              xs: "300px",
+            },
           }}
         >
           The Best Safaris & Adventures
@@ -51,8 +57,8 @@ function HeroSection() {
           variant="body1"
           sx={{
             fontSize: {
-              xs: "1.1rem",
-              sm: "1.5rem",
+              xs: "1rem",
+              sm: "1.2rem",
               md: "1.8rem",
               lg: "1.9rem",
             },
