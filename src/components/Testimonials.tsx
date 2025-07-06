@@ -29,7 +29,7 @@ function Testimonials() {
           {TravelerReviews.map((review, idx) => (
             <Grid
               size={{ xs: 11, sm: 6, md: 5, lg: 4 }}
-              height="15rem"
+              minHeight="15rem"
               key={idx}
             >
               <Card sx={{ height: "100%", padding: "1rem" }}>
