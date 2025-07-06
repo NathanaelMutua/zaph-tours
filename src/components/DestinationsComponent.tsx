@@ -89,21 +89,46 @@ function DestinationsComponent() {
                 >
                   <Box padding="1rem 0.5rem" width="90%">
                     <Stack direction="row" justifyContent="space-between">
-                      <Box display="flex" alignItems="center" gap="0.5rem">
+                      <Box display="flex" alignItems="center" gap="1rem">
                         <RiGroupLine style={{ color: "#eb8a00" }} />
-                        <Typography>Group Price</Typography>
+                        <Typography
+                          variant="h4"
+                          fontWeight="bold"
+                          fontSize="0.8rem"
+                        >
+                          Group Price
+                        </Typography>
                       </Box>
                       <Box>
-                        <Typography>${destination.price}</Typography>
+                        <Typography
+                          variant="h5"
+                          fontWeight="bold"
+                          fontSize="1.2rem"
+                          color="primary"
+                        >
+                          ${destination.price}
+                        </Typography>
                       </Box>
                     </Stack>
                     <Stack direction="row" justifyContent="space-between">
-                      <Box display="flex" alignItems="center" gap="0.5rem">
+                      <Box display="flex" alignItems="center" gap="1rem">
                         <IoPersonSharp style={{ color: "#eb8a00" }} />
-                        <Typography>Individual Price</Typography>
+                        <Typography
+                          variant="h4"
+                          fontWeight="bold"
+                          fontSize="0.8rem"
+                        >
+                          Individual Price
+                        </Typography>
                       </Box>
                       <Box>
-                        <Typography>${destination.individualPrice}</Typography>
+                        <Typography
+                          variant="h5"
+                          fontWeight="bold"
+                          fontSize="1.2rem"
+                        >
+                          ${destination.individualPrice}
+                        </Typography>
                       </Box>
                     </Stack>
                   </Box>
