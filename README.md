@@ -41,7 +41,7 @@ Zaph Tours Kenya is a modern travel and adventure website that showcases the bes
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:**
 
@@ -101,7 +101,7 @@ Zaph Tours Kenya is a modern travel and adventure website that showcases the bes
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Install dependencies:**
 
