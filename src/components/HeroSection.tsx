@@ -22,7 +22,7 @@ function HeroSection() {
         left="50%"
         sx={{
           transform: "translate(-50%, -50%)",
-          width: { xl: "950px", lg: "850px", md: "600px", xs: "340px" },
+          width: { xl: "950px", lg: "850px", md: "600px", xs: "300px" },
         }}
         alignItems="center"
         justifyContent="center"
