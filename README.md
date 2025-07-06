@@ -1,3 +1,9 @@
+
+
+
+https://github.com/user-attachments/assets/70a3d929-1eb1-4532-a9fe-d6310cab6ba1
+
+
 # Zaph Tours Kenya
 
 Zaph Tours Kenya is a modern travel and adventure website that showcases the best travel experiences in Kenya and east africa. Built with React and Material-UI, it has a clean, responsive UI and dynamic content for destinations, trips, testimonials, and more.
