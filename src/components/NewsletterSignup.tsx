@@ -8,7 +8,7 @@ function NewsletterSignup() {
       sx={{ backgroundColor: "#1976D2", color: "#ffffff" }}
       component="section"
     >
-      <Stack justifyContent="center" alignItems="center">
+      <Stack justifyContent="center" alignItems="center" textAlign="center">
         <Typography variant="h2" fontWeight="bold" fontSize="2.3rem">
           Stay Updated
         </Typography>
@@ -17,8 +17,8 @@ function NewsletterSignup() {
           and exclusive offers
         </Typography>
         <Stack
-          direction="row"
-          spacing={2}
+          direction={{ sx: "column", md: "row", lg: "row" }}
+          gap={2}
           height="5rem"
           m="1rem 0"
           alignItems="center"
@@ -30,7 +30,7 @@ function NewsletterSignup() {
             type="text"
             sx={{
               border: "none",
-              width: "20rem",
+              width: { sx: "16rem", sm: "18rem", md: "19rem", lg: "20rem" },
               backgroundColor: "#ffffff",
               borderRadius: "5px",
             }}
