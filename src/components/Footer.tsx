@@ -61,7 +61,7 @@ function Footer() {
               <Link
                 to="/"
                 style={{ textDecoration: "none", color: "#ffffff" }}
-                className="footer-link"
+                className="menu-link"
               >
                 Home
               </Link>
@@ -73,7 +73,7 @@ function Footer() {
                   textDecoration: "none",
                   color: "#ffffff",
                 }}
-                className="footer-link"
+                className="menu-link"
               >
                 Destinations
               </Link>
@@ -86,7 +86,7 @@ function Footer() {
                   color: "#ffffff",
                   transition: "0.3s",
                 }}
-                className="footer-link"
+                className="menu-link"
               >
                 Trip types
               </Link>
@@ -99,7 +99,7 @@ function Footer() {
                   color: "#ffffff",
                   transition: "0.3s",
                 }}
-                className="footer-link"
+                className="menu-link"
               >
                 Contact
               </Link>
