@@ -23,7 +23,7 @@ function ContactForm() {
         </Typography>
         <CardContent>
           <Stack
-            direction="row"
+            direction={{ sx: "column", md: "row", lg: "row" }}
             display="flex"
             justifyContent="space-between"
             gap={2}
